@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+    <title>Du nouveau !</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <header>
+            
+            <div class="menu">	<nav role="navigation"> <div id="menuToggle"> <!-- A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it. --> <input type="checkbox" /> <!-- Some spans to act as a hamburger. They are acting like a real hamburger, not that McDonalds stuff. --> <span></span> <span></span> <span></span> <!-- Too bad the menu has to be inside of the button but hey, it's pure CSS magic. --> <ul id="menu"> <a href="index.html"><li>Accueil</li></a> <a href="#"><li>A propos</li></a> <a href="#"><li>Services</li></a> <a href="#"><li>Contacts</li></a></ul></div>	</div>
+            <div class="site_web"> <span class="mon"> Mon </span>Site Web</div>
+        </header>
+        <main>
+            <section id="banner">
+                <div class="overplay">
+                    <div class="padding">
+               <h1> La passion du Web </h1> <p> Devenez un développeur Web. Découvrez gratuitement les secrets du développement Web sans aucune expérience préalable. Apprenez le HTML5, le CSS3 et le JS.</p></div>
+               </div>
+            </section>
+            
+            <div class="contenu">
+           <section id="features" >
+               
+        <div>        <img id="logo" src="logo_html.png" />        <span class="logo_title">
+       <h3>HTML5</h3>   </span>      <p> Le Hyper Text Markup Langage ou HTML est le langage de balisage prédominant pour la production de pages web     </p>    </div>    <div>       <img id="logo" src="logo_css.png" />       <span class="logo_title"><h3>CSS3</h3>  </span>     <p>  Le CSS ou encore feuilles de style en cascade est le langage déclaratif pour le style des pages Web     </p>    </div>    <div>        <img id="logo" src="logo_js.png" />   <span class="logo_title">     <h3>JS</h3>   </span>     <p>   L'incontournable JavaScript est un langage de programmation de scripts spécialisé dans la dynamisation des pages web   </p>     </div>        
+           </section> 
+           </div>
+           <section id="newsletter" >
+                  <h1>Inscrivez vous à ma newsletter</h1>       <form>           <input type="email" placeholder="Entrer Email..." />           <button class="submit" type="submit" >M'inscrire</button>       </form>
+           </section>
+           <footer>
+               Copyright © 2023 - La passion du Web
+        
+           </footer>
+        </main>
+</body>
+</html>
